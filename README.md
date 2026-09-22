@@ -21,4 +21,4 @@ There are interesting combinations of @eslint/css and node versions which do NOT
 2. `@eslint/css@2.0.0` and `node@26.0.0` does NOT reproduce the issue, meaning recent changes to node are likely involved too.
 3. `@eslint/css@2.0.0` and uninstalling node (the package) does NOT reproduce the issue.
 
-\#3 perplexes me, because from my understanding, user packages shouldn't affect the behavior of dependency packages.
+\#3 perplexes me, because from my understanding, simply installing a user package shouldn't affect the behavior of dependency packages.
