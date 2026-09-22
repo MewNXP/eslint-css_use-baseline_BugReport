@@ -13,7 +13,9 @@ Including or excluding the ESLint globalIgnores() for "node_modules" makes no di
 
 ## Different @eslint/css and node Versions
 
-There are interesting combinations of @eslint/css and node versions which do NOT reproduce the issue: 
+There are interesting combinations of @eslint/css and node versions which do NOT reproduce the issue.
+
+(Use `npm install -D --save <packageName>@<packageVersion>` to install a specific version, replacing the current version if there is one. Use `npm uninstall <packageName>` to uninstall a package. Use `npm ci` after either to doubly ensure the correct version is installed for a test.)
 
 1. `@eslint/css@1.4.0` and `node@25.9.0` does NOT reproduce the issue, meaning the latest update to @eslint/css introduced this bug (even if transiently).
 2. `@eslint/css@2.0.0` and `node@26.0.0` does NOT reproduce the issue, meaning recent changes to node are likely involved too.
