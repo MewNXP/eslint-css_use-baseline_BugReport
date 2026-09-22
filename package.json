@@ -1,0 +1,14 @@
+{
+    "name": "BugReport",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "@eslint/css": "^2.0.0",
+        "eslint": "^10.11.0",
+        "node": "^25.9.0"
+    }
+}
